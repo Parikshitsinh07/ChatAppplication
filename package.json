@@ -1,0 +1,18 @@
+{
+  "name": "nodeapp",
+  "version": "1.0.0",
+  "description": "that is chat web appliction med by me.",
+  "main": "app.js",
+  "scripts": {
+    "build": "netlify deploy --prod"
+  },
+  "author": "Parikshit",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2",
+    "netlify-cli": "^15.9.1",
+    "netlify-lambda": "^2.0.16",
+    "serverless-http": "^3.2.0",
+    "socket.io": "^4.7.1"
+  }
+}
